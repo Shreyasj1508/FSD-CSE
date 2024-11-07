@@ -61,7 +61,7 @@ const questions = [
     prevButton.style.display = "none";
     showQuestion();
   }
-  
+  // this project is created by shreyas 
   function showQuestion() {
     resetState();
     const currentQuestion = questions[currentQuestionIndex];
