@@ -1,28 +1,49 @@
 .container{
-    height: 400px;
-    width: 500px;
+    height: 700px;
+    width: 85%;
     background-color: aquamarine;
     border: 2px solid red;
-    display: inline-block;
+    padding: 50px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    gap: 20px;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    /* align-items: center; */
 }
 .child1,.child2,.child3{
-    height: 60px;
-    width: 60px;
-    border: 2px solid gold;
-    gap: 20px;
-    color: rgb(0, 5, 5);
-    background-color: rgb(235, 133, 90);
-    padding: 10px;
-    margin: 30px;
+    padding: 4px;
+    height: 50%;
+    width: 22%;
+    border: 2px solid black;
     display: inline-block;
+    /* margin-right: 30px; */
+}
+.child1{
+    background-color: antiquewhite;
+    display: flex;
+    flex-basis: 50%;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+}
+.child11, .child12{
+    /* padding: 10px 0; */
+    width: 25%;
+    border: 2px dotted black;
+    background-color: aliceblue;
+}
+.child12{
+    background-color: lightblue;
+}
+.child11{
+    background-color: yellow;
 }
 .child2{
-   
-    background-color: rgb(255, 255, 255);
-   
+    background-color:aqua;
 }
 .child3{
-   
-    background-color: rgb(15, 215, 55);
-
+    background-color:yellowgreen;
 }
