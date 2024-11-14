@@ -134,7 +134,6 @@ const questions = [
       showScore();
     }
   }
-  
   function handleprevButton() {
     currentQuestionIndex--;
     showQuestion();
